@@ -37,10 +37,10 @@ void loop() {
   duration = pulseIn(4, HIGH) / 29 / 2;
   
   TV.clear_screen();
-  TV.print(10, 10,"You are ");
+  TV.print(10, 10,"Obstacle ");
   TV.print(duration);
   TV.print(" cm");
-  TV.println(" \naway from me.");
+  TV.println(" \nfrom me.");
   delay(10000);
   TV.clear_screen();
 
